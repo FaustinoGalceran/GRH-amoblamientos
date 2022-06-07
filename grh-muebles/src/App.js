@@ -4,9 +4,12 @@ import BsNavBar from './components/BsNavBar';
 import ItemListContainer from './components/ItemListContainer';
 
 function App() {
-  return <BsNavBar/>;
-         <ItemListContainer greeting={'Hola mundo'}>;
-
+  return ( 
+    <>
+     {/*<BsNavBar/>;*/}
+      <MUna
+    </>
+  )
 }
 
 export default App;
