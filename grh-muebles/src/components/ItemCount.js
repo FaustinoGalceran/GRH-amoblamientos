@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const ItemConst = ({ inicial, max, onAdd}) => {
+const ItemConst = ({ inicial, max, onAdd , min}) => {
     const[count,setCount] = useState()
     const sumar = () => {
       if (count < max){
@@ -16,7 +16,7 @@ const ItemConst = ({ inicial, max, onAdd}) => {
     } else{
        alert('No puedes descontar mas productos')
     }
-
+  }
 
   return (
     <div>  
